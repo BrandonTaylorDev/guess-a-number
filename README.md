@@ -6,13 +6,13 @@ I will be writing this in the top 10 programming languages according to the [IEE
 
 For now, here is the list:
 
-1. Python
-2. Java
-3. JavaScript
-4. C++
-5. C#
-6. Go
-7. C
-8. Rust
-9. PHP
-10. Shell
+- [x] Python
+- [] Java
+- [x] JavaScript
+- [] C++
+- [] C#
+- [x] Go
+- [] C
+- [x] Rust
+- [] PHP
+- [] Shell
