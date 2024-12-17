@@ -4,7 +4,7 @@ def gen_secret():
     return random.randint(0, 9)
 
 def get_user_guess():
-    print("Guess a number between 0 and 9:")
+    print("Guess a number between 0 and 9 (inclusive):")
     print("> ", end="")
     guess = input()
     
