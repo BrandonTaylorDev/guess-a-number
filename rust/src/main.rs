@@ -9,7 +9,7 @@ fn get_user_guess() -> i32 {
   let mut input = String::new();
   let guess: i32;
 
-  println!("Guess a number between 0 and 10");
+  println!("Guess a number between 0 and 9 (inclusive)");
   print!("> ");
   io::stdout().flush().unwrap_or_default();
 
@@ -44,7 +44,7 @@ fn main() {
       std::cmp::Ordering::Less    => println!("Too low!"),
       std::cmp::Ordering::Greater => println!("Too high!"),
       std::cmp::Ordering::Equal   => {
-        println!("That was the number!");
+        println!("You got it!");
         break;
       }
     }
