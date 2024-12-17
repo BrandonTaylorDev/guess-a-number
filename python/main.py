@@ -11,7 +11,7 @@ def get_user_guess():
     try:
       guess = int(guess)
     except ValueError:
-      print("Tha's not a number. Don't worry, I'll generate one for you.")
+      print("That's not a number. Don't worry, I'll generate one for you.")
       guess = random.randint(0, 9)
       print(f"Your guess: {guess}")
     
