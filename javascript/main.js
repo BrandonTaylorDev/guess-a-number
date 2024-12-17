@@ -38,7 +38,7 @@ const { randomInt } = require('crypto');
 
   while (true) {
     if (guess === secret) {
-      console.log("You win!");
+      console.log("You got it!");
       break;
     }
 
